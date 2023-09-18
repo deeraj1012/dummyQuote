@@ -1,0 +1,56 @@
+/* Base styles for all screen sizes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 90%; /* Adjust the maximum width for all screen sizes */
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+body{
+	background-color: yellow;
+}
+#quote {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Media query for tablets (portrait and landscape) */
+@media (min-width: 768px) {
+    .container {
+        max-width: 70%; /* Adjust the maximum width for tablets */
+    }
+}
+
+/* Media query for desktop screens */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 60%; /* Adjust the maximum width for desktop screens */
+    }
+}
